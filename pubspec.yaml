@@ -1,0 +1,39 @@
+name: patra
+description: "Calendar based on bikram sambat including tharu events."
+publish_to: 'none'
+version: 0.1.0
+
+environment:
+  sdk: '>=3.3.0 <4.0.0'
+
+dependencies:
+  
+  flutter:
+    sdk: flutter
+  flutter_bs_ad_calendar: ^1.0.4
+  intl: ^0.18.1
+  nepali_utils: ^3.0.4
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^3.0.0
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    - images/bg.jpg
+    - images/patra.jpeg
+    - images/radio.jpeg
+    - images/news.jpeg
+    - images/pustakalaya.jpg
+    - images/setting.jpeg
+    - images/about.jpeg
+    
+   
+
+  
+  
+  
+
